@@ -430,10 +430,11 @@ nav .fa-solid {
         height: 100vh;
         position: fixed;
         top: 0px;
-        right: 0px;
+        right: -200px;
         width: 200px;
         padding-top: 40px;
         transition: right 0.5s;
+        z-index: 2;
     }
 
     nav ul .fa-xmark {
